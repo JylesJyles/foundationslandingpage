@@ -1,0 +1,221 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+nav, .overview, .gallery-container, .quote-text, .quote-author, .cta-container, p {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+/* this is for the header section */
+
+header {
+    background-color: #1f2937;
+    /*padding: 5px 150px 80px 150px;*/
+    padding: 0px 0px 120px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+
+}
+
+.overview {
+    display: flex;
+    gap: 45px;
+}
+
+.overview-left {
+    flex: 18;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+.overview img {
+    flex: 20; 
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
+}
+
+p, li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: 16px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+}
+
+li {
+
+}
+
+.button-solid {
+    background-color: #3882f6;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.button-solid:hover {
+    cursor: pointer;
+}
+
+
+/* this is for the gallery section */
+
+.gallery {
+    padding: 20px 0px;
+}
+
+h2 {
+ text-align: center;
+ color: #1f2937;
+ font-size: 34px;
+ font-weight: bold;
+ margin-bottom: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.gallery-group {
+    flex: 0 0 160px;
+}
+
+.gallery-img-box {
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+.gallery-text-box {
+
+}
+
+.gallery p {
+    color: #6e6e6e;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* this is for the quote section */
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 120px 315px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    color: #1f2937;
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* this is for the cta section */
+
+.cta {
+    padding: 80px 0px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 60px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+}
+
+.cta-container-left {
+    align-items: left;
+    flex: 8;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.button-outlined {
+    background-color: #3882f6;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    margin: 0 auto;
+    flex: 1;
+    align-self: center;
+}
+
+.button-outlined:hover {
+    cursor: pointer;
+}
+
+/* this is for the footer section */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
